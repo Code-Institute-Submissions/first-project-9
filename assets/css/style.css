@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    background-color: #3a3a3a;
+}
+
+/* logo */
+
+#logo {
+    font-family: Lato, sans-serif;
+    color: white;
+    font-size: 180%;
+    float: left;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+#logo-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+}
+
+.nav-div {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
