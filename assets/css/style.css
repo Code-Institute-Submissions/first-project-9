@@ -71,7 +71,7 @@ a {
     color: #fff;
 }
 
-/* background */
+/* background and front page */
 
 #background{
     width: 100%;
@@ -154,6 +154,7 @@ a {
     color: #fff;
     font-weight: 600;
     margin-bottom: 8px;
+    font-size: 125%;
     font-family: Arial, sans-serif;
 }
 
@@ -181,6 +182,7 @@ a {
 
 .feature-image{
     float: right;
+    display: flex;
 }
 
 .left{
@@ -193,10 +195,18 @@ a {
 
 .right-image{
     box-shadow: 8px 8px 5px 1px #1b1b1b;
+    width: 100%;
+    max-width: 495px;
+    min-width: 200px;
+    margin: auto;
 }
 
 .left-image{
     box-shadow: -8px 8px 5px 1px #1b1b1b;
+    width: 100%;
+    max-width: 495px;
+    min-width: 200px;
+    margin: auto;
 }
 
 /* footer */
@@ -239,3 +249,58 @@ footer span{
     padding-bottom: 100px;
 }
 
+/* responsive design */
+@media screen and (max-width: 1075px) {
+    .feature-box{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .feature-text{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 115%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .feature-box{
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    
+    .feature-text{
+        font-size: 105%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .feature-box{
+        margin-top: 100px;
+        margin-bottom: 300px;
+        height: inherit;
+    }
+    
+    .feature-image,
+    .feature-text{
+        float: none;
+    }
+
+    .feature-text,
+    .feature-image{
+        height: inherit;
+        width: inherit;
+    }
+
+    .feature-text{
+        margin: 35px 20px 20px 20px;
+    }
+
+    .right-image{
+        width: 80%;
+    }
+
+    .left-image{
+        width: 80%;
+    }
+}
