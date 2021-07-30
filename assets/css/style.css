@@ -171,6 +171,12 @@ a {
     height: 200px;
     margin: 147.5px 20px 147.5px 20px;
     float: left;
+    font-size: 125%;
+}
+
+.feature-text > div{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .feature-image{
