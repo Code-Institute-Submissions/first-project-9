@@ -71,6 +71,10 @@ a {
     color: #fff;
 }
 
+.active{
+    text-decoration-line: underline;
+}
+
 /* background and front page */
 
 #background{
@@ -83,14 +87,12 @@ a {
 
 #cover-circle{
     text-align: center;
-    background-color: rgba(33, 33, 33, .7);
     width: 500px;
     height: 500px;
     border-radius: 50%;
     margin-top: 40px;
     box-shadow: 5px 5px 6px 2px #1b1b1b;
     background-image: url("../images/middle.png");
-    background-size: cover;
 }
 
 #cover-text{
@@ -236,7 +238,7 @@ footer{
     font-size: 120%;
 }
 
-.fab{
+footer .fab{
     margin: 10px 0 40px 0;
     display: block !important;
 }
@@ -256,18 +258,19 @@ footer{
 }
 
 footer a{
-    color: rgb(190, 190, 190);
+    color: rgb(155, 157, 159);
     transition: background-color .15s ease-in,color .15s ease-out;
 }
 
 footer a:hover{
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 footer small{
     text-align: center;
     position: absolute;
     bottom: 5px;
+    color: rgb(155, 157, 159);
 }
 
 #left-div, #right-div > i{
@@ -276,6 +279,46 @@ footer small{
 
 .icon::before{
     padding-right: 10px;
+}
+
+/* contact box */
+
+#contact-box{
+    text-align: center;
+    width: 60%;
+    height: 500px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 6px 2px #1b1b1b;
+    background-image: url("../images/middle.png");   
+}
+
+#contact-text{
+    color: #fff;
+    padding: 10px;
+}
+
+#contact-text a{
+    color: #fff;
+    transition: background-color .15s ease-in,color .15s ease-out;
+}
+
+#contact-text a:hover{
+    color: rgb(155, 157, 159);
+}
+
+#contact-text > h2{
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+#contact-text > div{
+    padding: 25px 0 25px 0;
+    font-size: 105%;
+}
+
+#contact-text i{
+    padding: 8px;
+    
 }
 
 /* responsive design */
