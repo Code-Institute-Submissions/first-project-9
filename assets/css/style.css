@@ -324,7 +324,7 @@ footer small{
 }
 
 #contact-text form{
-    width: 156px;
+    width: 163px;
 }
 
 #contact-text input{
@@ -333,6 +333,7 @@ footer small{
     color: #fff;
     transition: background-color .15s ease-in,color .15s ease-out;
     font-size: 105%;
+    font-family: Arial, sans-serif;
 }
 
 #contact-text input:hover{
