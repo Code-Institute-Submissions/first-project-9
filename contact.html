@@ -27,20 +27,24 @@
                     <li>
                         <a href="#contact.html" target="_blank" class="active">Contact</a>
                     </li>
-                    <li>
-                        <a href="https://discord.com/api/oauth2/authorize?client_id=870314032396120144&redirect_uri=https%3A%2F%2F8000-indigo-coral-krmfzbmh.ws-eu13.gitpod.io%2Fauth%2Fredirect&response_type=code&scope=identify%20email%20guilds" target="_blank">Sign Up</a>
-                    </li>
                 </ul>
             </div>
         </nav>
     </header>
     <section>
-        <div id="background">
+        <div id="background" class="contact-background">
             <div id="contact-box">
                 <div id="contact-text">
                     <h2>Contact Information</h2>
-                    <div><i class="far fa-envelope"></i> ericantebo@live.se</div>
-                    <div><i class="fab fa-discord"></i> <a href="https://discord.gg/kkvXN5QCkR" target="_blank">Support Server</a></div>
+                    <div>
+                        <i class="far fa-envelope"></i>
+                        <form action="mailto:ericantebo@live.se" method="POST" enctype="multipart/form-data" name="EmailForm">
+                            <input type="submit" value=" ericantebo@live.se">
+                        </form>
+                    </div>
+                    <div>
+                        <i class="fab fa-discord"></i>  <a href="https://discord.gg/kkvXN5QCkR" target="_blank">Support Server</a>
+                    </div>
                     <div></div>
                 </div>
             </div>

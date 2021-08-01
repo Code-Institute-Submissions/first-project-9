@@ -287,9 +287,10 @@ footer small{
     text-align: center;
     width: 60%;
     height: 500px;
-    margin-top: 40px;
+    margin-top: 8%;
     box-shadow: 5px 5px 6px 2px #1b1b1b;
     background-image: url("../images/middle.png");   
+    min-width: 250px;
 }
 
 #contact-text{
@@ -311,14 +312,39 @@ footer small{
     margin-bottom: 10%;
 }
 
-#contact-text > div{
+#contact-text > div, 
+#contact-text div > a, 
+#contact-text div > form{
     padding: 25px 0 25px 0;
     font-size: 105%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-text form{
+    width: 156px;
+}
+
+#contact-text input{
+    background-color: inherit;
+    width: inherit;
+    color: #fff;
+    transition: background-color .15s ease-in,color .15s ease-out;
+    font-size: 105%;
+}
+
+#contact-text input:hover{
+    color: rgb(155, 157, 159);
 }
 
 #contact-text i{
     padding: 8px;
-    
+}
+
+.contact-background{
+    margin-bottom: 5% !important;
 }
 
 /* responsive design */
@@ -363,6 +389,10 @@ footer small{
     #right-div{
         bottom: 49%;
         right: inherit;
+    }
+
+    .contact-background {
+        margin-bottom: 0 !important;
     }
 }
 
