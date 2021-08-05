@@ -460,3 +460,28 @@ footer small{
         width: 80%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #cover-circle{
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    
+    #cover-text{
+        color: #fff;
+        font-size: 120%;
+        padding: 100px 0;
+    }
+    
+    
+    .cover-button{
+        margin: 20px 5px 0 5px;
+        height: 45px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .add-button{
+        background-color: rgb(88, 101, 242);
+    }
+}
