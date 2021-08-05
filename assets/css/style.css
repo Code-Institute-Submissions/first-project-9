@@ -485,3 +485,20 @@ footer small{
         background-color: rgb(88, 101, 242);
     }
 }
+
+@media screen and (max-width: 400px) {
+    .nav-div{
+        display: table;
+    }
+    
+    .logo-container{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .nav-elements{
+        line-height: 30px;
+        display: flex;
+    }
+}
