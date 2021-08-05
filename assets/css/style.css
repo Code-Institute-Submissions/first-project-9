@@ -344,9 +344,42 @@ footer small{
     padding: 8px;
 }
 
-.contact-background{
+.responsive-background{
     margin-bottom: 5% !important;
 }
+
+/* faq */
+
+#faq-box{
+    text-align: center;
+    width: 60%;
+    height: 500px;
+    margin-top: 8%;
+    box-shadow: 5px 5px 6px 2px #1b1b1b;
+    background-image: url("../images/middle.png");   
+    min-width: 250px;
+}
+
+#faq-text{
+    color: #fff;
+    padding: 10px;
+}
+
+#faq-text > h2{
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+#faq-text > div{
+    padding: 25px 0 25px 0;
+    font-size: 105%;
+    font-family: Arial, sans-serif;
+}
+
+.responsive-background{
+    margin-bottom: 5% !important;
+}
+
 
 /* responsive design */
 @media screen and (max-width: 1075px) {
@@ -392,7 +425,7 @@ footer small{
         right: inherit;
     }
 
-    .contact-background {
+    .responsive-background{
         margin-bottom: 0 !important;
     }
 }
