@@ -4,7 +4,7 @@ const http = new XMLHttpRequest();
 http.open("GET", url);
 http.send();
 
-http.onreadystatechange = (e) => {
+http.onreadystatechange = () => {
     
     var status = this.document.getElementById("status")
 
