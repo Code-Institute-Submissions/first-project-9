@@ -442,8 +442,25 @@ footer small{
 
 /* responsive design */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
+    #faq-container{
+        display: inline-grid;
+        margin-left: 50%;
+        justify-items: center;
+    }
 
+    .faq-box{
+        width: 244%;
+        margin-left: 100%;
+    }
+
+    .video-box{
+        left: inherit;
+    }
+    
+    .faq-text video{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 1075px) {
@@ -525,6 +542,14 @@ footer small{
     }
 }
 
+@media screen and (max-width: 570px) {
+    .faq-text video{
+        width: 70%;
+        margin-top: 25%;
+        height: 35%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #cover-circle{
         width: 300px;
@@ -550,7 +575,7 @@ footer small{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .nav-div{
         display: table;
     }
@@ -564,5 +589,9 @@ footer small{
     .nav-elements{
         line-height: 30px;
         display: flex;
+    }
+
+    .faq-box{
+        margin-left: 50%;
     }
 }
